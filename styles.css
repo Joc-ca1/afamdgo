@@ -1004,6 +1004,12 @@ button:hover {
     }
 }
 
+@media (max-width: 768px) {
+  .grid-empresas.menudeo {
+    grid-template-columns: 1fr !important; /* Fuerza una sola columna */
+  }
+}
+
 
   
   
